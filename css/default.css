@@ -537,10 +537,11 @@ p.img_area {
   border-right:1px solid #232323;
   width:calc(100%/5);
 }
-.depth_tab.type2 li:last-child{
+/* .depth_tab.type2 li:last-child{
   padding-left:80px;
   text-align:left;
-}
+} */
+
 .btn_top{
   position: fixed;
   bottom: 50px;
@@ -710,4 +711,5 @@ figure.img_area figcaption {
   color:#666
 
 }
+
 
