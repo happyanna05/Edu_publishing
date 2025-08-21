@@ -701,6 +701,9 @@
           <li>
             <a href="#property23">밴더프리픽스</a>
           </li>
+          <li>
+            <a href="#property24">사용자 정의 CSS</a>
+          </li>
         </ul>
         <section id="property1" class="define01">
           <strong>
@@ -5200,6 +5203,31 @@
               </tr>
             </tbody>
           </table>
+        </section>   
+        <section id="property23" class="define01">
+          <strong>24. 사용자 정의 CSS</strong>
+          <div class="define02 mgt14">
+            <p>
+              - CSS 저작자가 정의하는 개체로, 문서 전반적으로 재사용할 임의의 값을 담습니다. <br>
+              - 사용자 지정 속성은 전용 표기법을 사용해 정의함<br>
+              - 문법: (--main-color: black;) var() 함수를 사용해 접근할 수 있습니다. (color: var(--main-color);)
+            </p>
+          </div>
+          <table class="tbl_sty2">
+            <thead>
+              <tr>
+                <th style="text-align: left">:root</th>
+                <th style="text-align: left">스타일 적용</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="text-align: left">--main-color:#000</td>
+                <td style="text-align: left">선택자{속성명(예:컬러라면 컬러 속성명에 모두 사용 가능):var(--main-color, 초기값(생략가능))}</td>
+              </tr>
+              <tr>
+            </tbody>
+          </table>
         </section>
       </div>
     </div>
@@ -5246,6 +5274,7 @@
 
 
 </html>
+
 
 
 
